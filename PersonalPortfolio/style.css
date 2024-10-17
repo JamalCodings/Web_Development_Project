@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Josefin+Sans&family=Ubuntu:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sideBar {
+  background-color: rgb(170, 183, 194);
+  width: 200px;
+}
+
+.sideBar li a{
+    text-decoration: none;
+}
+
+.sideBar li {
+  font-family: "Baloo Bhai";
+  font-size: 1.3rem;
+  padding: 20px;
+  list-style: none;
+  padding-top: 10px;
+}
+
+.main {
+  width: 90vw;
+
+}
+
+.infoContainer {
+  display: flex;
+  height: 78vh;
+  width: 81vw;
+  margin: 20px auto;
+  justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding-top: 20px;
+
+}
+
+.hello{
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+}
+
+.name{
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-top: 20px;
+
+}
+
+.about{
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+
+}
+
+.moreAbout{
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+    font-weight: bold;
+
+}
+
+.buttons button{
+    margin-top: 40px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: rgb(134, 134, 216);
+    color: white;
+}
+
+
+.devPic img{
+    height: 70vh;
+
+}
+
+/* ***********************   Contact page    **************************** */
+
+
+.contactForm{
+     background-color: rgb(160, 160, 178);
+     height: 70vh;
+     width: 70vw;
+     margin: 50px auto;
+}
+
+.mb-3{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+ 
+}
+
+#clientname{
+  margin-left: 75px;
+}
+
+.form-control{
+  margin-left: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.form-label{
+  font-family: Tahoma, sans-serif;
+  font: bold;
+  font-size: 1.2rem;
+}
+
+.submit{
+  font-family: Tahoma, sans-serif;
+}
+
+.para{
+  font-family: Tahoma, sans-serif;
+}
+
+.btn{
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+}
+
+.contactForm h1{
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Baloo Bhai";
+}
+
+/* ***************************  Blog template****************************** */
+
+#blogHeader{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: block;
+}
+
+ .blogs{
+  margin: 20px 20px;
+  float: left;
+  border: 5px solid black;
+  border-radius: 20px;
+  width: 300px;
+  height: 200px;
+}
+
+.blogs h3{
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.blogPara{
+  text-align: center;
+  padding: 5px 5px;
+}
+
+
+/* ********************   Intro page ***************************** */
+
+.introHead{
+  margin-left: 50px;
+}
+
+.introPara{
+  margin-left: 70px;
+  margin-right: 20px;
+}
+
+.skillContainer{
+        margin-top: 50px;
+}
+
+.skillitem{
+  display: flex;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.html{
+  width: 800px;
+  height: 5px;
+  background-color: red;
+
+}
+
+.css{
+  width: 700px;
+  height: 5px;
+  background-color: rgb(195, 255, 0);
+
+}
+
+
+.js{
+  width: 600px;
+  height: 5px;
+  background-color: rgb(0, 34, 255);
+
+}
+
+
+.frame{
+  width: 500px;
+  height: 5px;
+  background-color: rgb(17, 5, 5);
+
+}
+
+.library{
+  width: 400px;
+  height: 5px;
+  background-color: rgb(255, 187, 0);
+
+}
+
+.line{
+  margin-left: 10px;
+  margin-top: 5px;
+}
+

@@ -1,0 +1,401 @@
+/* General things  */
+*{
+    border: border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    /* background-color: #e2e6e7; */
+
+}
+
+body{
+    background-color: #e2e6e7;
+}
+/* ******************  Nav Bar ********************************* */
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav_logo{
+    /* padding: 1px 8px 0px 6px; */
+    /* margin: 1px; */
+    height: 50px;
+    width: 113px;
+
+}
+
+.logo{
+    background-image: url("images/log.ama.webp");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.border:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.nav-adress{
+    /* margin: 5px 2px 5px 0px;
+    padding: 0px 9px; */
+    color: white;
+}
+
+.add-first{
+    /* margin-left: 13px; */
+    font-size: 0.8rem;
+}
+
+.add-icon{
+    align-items: center;
+    justify-content: center;
+}
+
+.add-second{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* ********************* search NavBar ***************************************** */
+
+
+.nav-search{
+    display: flex;
+    height: 40px;
+    /* margin-left: 10px; */
+}
+
+
+.search-select{
+    width: 51px;
+    background-color: #E6E6E6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #0f1111;
+    text-align: center;
+    border: none;
+    /* margin-left: 5px; */
+
+}
+
+.search-input{
+    width: 543px;
+    /* padding: 10px 0px 10px 7px; */
+    width: px;
+    border: none;
+}
+
+.search-icon{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(218, 146, 58);
+    display: flex;
+    width: 40px;
+   align-items: center;
+   justify-content: center;
+  border: 2px solid white;
+  border: none;
+}
+
+
+/* ****************** Langugge Img ********* */
+
+
+.flag-us{
+    display: flex;
+}
+
+.flag{
+    margin: 19px 0px 5px 20px;
+    margin-right: 0px;
+    width: 21px;
+    height: 20px;
+}
+
+.lang-flag{
+   background:none;
+   color: white;
+   border: none;
+   margin: 21px 0px 5px 1px;
+   font-weight: bold;
+}
+
+/* ********************************* */
+
+.sign-in{
+    margin-left: 0px;
+    color: white;
+    margin-left: 22px;
+    margin-top: 6px;
+}
+
+.para-sign{
+    margin-left: 3px;
+font-size: 0.8rem;
+}
+
+.para-list{
+background: none;
+color: #E6E6E6;
+border: none;
+font-weight: bolder;
+
+}
+
+/* ******************************************** */
+
+.return{
+    color: white;
+    margin-left: 25px;
+    display: block;
+}
+
+.span-order{
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+/* *************************** */
+
+
+.img-cart{
+     display: block;
+     margin-left: 10px; 
+    width: 35px;
+    height: 35px;
+    filter: invert(1);
+}
+
+.cart-1{
+    color: white;
+    margin-top: 20px;
+}
+
+
+/* **************************   Panel  ****************************** */
+
+.panel{
+    height: 39px;
+    background-color: #232F3F;
+    color: #E6E6E6;
+    display: flex;
+}
+
+.fa-solid{
+    margin-right: 5px;
+}
+
+
+.panel-all{ 
+    height:39px ;
+    padding-right: 5px;
+    margin-left: 11px;
+    width: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-all:hover{
+    border: 1px solid white;
+}
+
+
+.panel-para{
+    padding: 5px;
+}
+
+.panel-opt{
+    font-weight: 500    ;
+    cursor: pointer;
+    height: 39px;
+    display: flex;
+
+}
+
+.para-panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+}
+.para-panel:hover{
+    height: 39px;
+    border: 1px solid white;
+   
+}
+
+/* *************************************************************************** */
+
+.hero-img{
+    height: 500px;
+    width: 100%;
+    background-image: url("images/hero-Image.jpg"  ) ;
+    background-size: cover;
+}
+
+.shop-items{
+    /* background-color: #e2e6e7; */
+    display: flex;
+    padding-top: 200px;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.box{
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+    padding-left: 10px;
+    font-size: 13px;
+    /* border: 2px solid black; */
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    /* overflow: visible; */
+}
+
+
+.shop-items2{
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+   
+    /* overflow: visible; */
+    /* display: flex; */
+}
+
+.box1-logo1{
+    margin-top: 20px;
+    display: flex;
+    width: 150px;
+    overflow: hidden;
+    margin-left: -30px;
+    height: 115px;
+}
+
+.box1-logo2{
+    /* margin-top: 20px; */
+    display: flex;
+    /* margin-left: -30px; */
+    width: 70px;
+    height: 115px;
+}
+
+.box1-logo3{
+    margin-top: 20px;
+    display: inline;
+    height: 30px;
+    width: 30px;
+}
+
+.box1-logo4{
+    margin-top: 20px;
+    display: inline;
+    height: 30px;
+    width: 30px;
+}
+    
+.box2{
+    margin-top: 20px;
+    width: 243px;
+    margin-left: 10px;
+    height: 300px;
+}
+
+.box3{
+    margin-top: 20px;
+    width: 243px;
+    margin-left: 10px;
+    height: 300px;
+}
+
+.box4{
+    margin-top: 20px;
+    width: 243px;
+    margin-left: 10px;
+    height: 300px;
+}
+
+
+.panel-foot{
+    margin-top: 130px;
+    background-color: #5384c5;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.panel-footer{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 100%;
+    background-color: #222f3d;
+    padding-top: 20px;
+
+}
+
+ul a{
+    /* padding-top: 10px; */
+    font-size: 0.87rem;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+
+.foot-panel3{
+    border-top: 1px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222f3d;
+
+}
+
+
+.foot-panel4{
+    background-color: #222f3d;
+    color: white;
+    height: 70px;
+    padding-top: 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+
+}
+
+
+.pages{
+    text-align: center;
+}
+
+
+.pages a{
+    
+    color: white;
+    text-decoration: none;
+}
+
+
+.copyright{
+    text-align: center;
+}

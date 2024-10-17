@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(images.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.navBar {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo h1 {
+  color: rgb(185, 94, 30);
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 0px 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.nav ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: rgb(185, 94, 30);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav ul li:hover::after {
+  width: 100%;
+}
+
+.searchIcon input,
+button {
+  color: white;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: 2px solid rgb(185, 94, 30);
+}
+
+.searchIcon input {
+  background: transparent;
+}
+
+.searchIcon input:focus {
+  outline: none;
+}
+
+.searchIcon button {
+  background: rgb(185, 94, 30);
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text {
+  width: 500px;
+}
+
+.text h1 {
+  font-size: 50px;
+}
+
+.text p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.text button {
+  background: rgb(185, 94, 30);
+  padding: 5px 45px;
+  margin-top: 20px;
+  color: black;
+}
+
+/* *************************************     Login Page ************************* */
+
+.loginPage {
+  width: 300px;
+  height: 350px;
+  background: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.loginPage h3 {
+  width: 70%;
+  background: white;
+  color: rgb(185, 94, 30);
+  margin: 10px auto;
+  border-radius: 6px;
+  padding: 6px 10px;
+}
+
+.loginPage input {
+  width: 80%;
+  border: none;
+  border-bottom: 2px solid rgb(122, 75, 41);
+  background: transparent;
+  margin: 20px auto;
+}
+
+.loginPage input:focus {
+  outline: none;
+}
+
+.loginPage button {
+  width: 70%;
+  background: rgb(185, 94, 30);
+  color: black;
+  font-weight: bold;
+  margin: 10px auto;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.loginPage h4 a {
+  text-decoration: none;
+  color: orange;
+}
+
+.loginPage p {
+  margin-top: 20px;
+}
+
+.icons {
+  margin: 20px auto;
+}
+
+.icons i {
+  padding-left: 20px;
+}
+
+.fa-solid {
+  color: white;
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .searchIcon {
+    display: none;
+  }
+
+  .navBar{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav ul{
+    display: block;
+  }
+
+  .nav{
+    position: absolute;
+    background: #f44336;
+    top: 0;
+    right: 0%;
+    height: 100vh;
+    width: 200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+
+  .navBar .fa-solid{
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+}
